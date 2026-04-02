@@ -1,0 +1,46 @@
+project_id = "eswpduazihbpsohnuwtt"
+
+[functions.generate-k6]
+verify_jwt = true
+
+[functions.kb-upload]
+verify_jwt = true
+
+[functions.kb-process-document]
+verify_jwt = false
+
+[functions.kb-retry-document]
+verify_jwt = true
+
+[functions.kb-search]
+verify_jwt = true
+
+[functions.qa-consultor-chat]
+verify_jwt = true
+
+[functions.jira-save-connection]
+verify_jwt = true
+
+[functions.jira-test-connection]
+verify_jwt = true
+
+[functions.jira-fetch-issue]
+verify_jwt = true
+
+[functions.jira-suggestions]
+verify_jwt = true
+
+[functions.jira-bdd-generate]
+verify_jwt = true
+
+[functions.jira-oauth-start]
+verify_jwt = true
+
+[functions.jira-oauth-callback]
+verify_jwt = false
+
+[functions.jira-oauth-save]
+verify_jwt = true
+
+[functions.bdd-coaching]
+verify_jwt = true
